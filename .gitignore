@@ -1,3 +1,9 @@
+# Not sure what this is
 .terraform
+
+# Binary plugin
 terraform-provider-redlock
+
+# Terraform files
+*.tf
 
