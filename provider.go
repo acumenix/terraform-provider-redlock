@@ -8,7 +8,8 @@ import (
 func Provider() *schema.Provider {
 	return &schema.Provider{
 		ResourcesMap: map[string]*schema.Resource{
-			"redlock_account": resourceAccount(),
+			"aws_account": resourceAWSAccount(),
+			"gcp_account": resourceGCPAccount(),
 		},
 	}
 }
